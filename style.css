@@ -26,7 +26,7 @@ body {
     color: whitesmoke;  
     margin-left: 25%;
     margin-right: 25%;
-    font-size: 22px;
+    font-size: 18px;
     letter-spacing: 1px;
   }
 
@@ -36,12 +36,10 @@ body {
     font-size: 22px;
     color: whitesmoke;  
     background-color: rgb(141, 0, 134);
-    border-radius: 10%;
+    size: 60px;
     padding: 15px, 32px;
   }
 
   img {
-    max-width: 50%;
-    max-height: 50%;
-    size: 100px;
+    size: 40px;
   }
