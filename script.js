@@ -9,9 +9,7 @@ h3.textContent = "My love for technology was reignited when I entered the NFT sp
 
 document.querySelector("body").appendChild(h3); 
 
-let button = document.getElementById("button");
-let msg = ("Whenever you find yourself doubting how far you can go, just remember how far you have come.");
-
-button.addEventListener('click', ()=>{
-  alert(msg);
-})
+const input = document.getElementById("button");
+input.addEventListener('click', function() {
+  alert("Whenever you find yourself doubting how far you can go, just remember how far you have come.");
+});
