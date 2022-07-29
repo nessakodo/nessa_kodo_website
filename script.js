@@ -1,5 +1,5 @@
 const h2 = document.createElement("h2");
-h2.textContent = "ABOUT ME";
+h2.textContent = "About Me";
 
 document.querySelector("body").appendChild(h2);
 
@@ -8,3 +8,8 @@ h3.textContent = "My love for technology was reignited when I entered the NFT sp
 
 document.querySelector("body").appendChild(h3);
 
+function myFunction() {
+  alert ("Whenever you find yourself doubting how far you can go, just remember how far you have come.");
+}
+
+document.getElementById("button").addEventListener("click", myFunction);
