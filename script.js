@@ -10,9 +10,6 @@ h3.textContent = "My love for technology was reignited when I entered the NFT sp
 document.querySelector("body").appendChild(h3); 
 
 const input = document.getElementById("button");
-
-function myFunction() {
-  alert ("Whenever you find yourself doubting how far you can go, just remember how far you have come.");
-}
-
-input.addEventListener('click', myFunction);
+input.addEventListener('click', function() {
+  alert("Whenever you find yourself doubting how far you can go, just remember how far you have come.");
+});
